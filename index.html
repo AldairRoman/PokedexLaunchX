@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="titulo">
+        <img class="img-titulo" src="./Img/titulo.png">
+    </div>
+<!-- Parte Izquierda de la pokedex -->
+<div class="cuerpoPokedex">
+    <!-- Parte superior del pokedex -->
+    <div class="pipokedex">
+        <div class="circuloblanco">
+            <div class="circuloazul"></div>
+            <div class="circuloazulpeque"></div>
+        </div>     
+       <div class="circulorojo"></div>
+       <div class="circuloamarillo"></div>
+       <div class="circuloamarillo"></div>
+    </div>
+   <!-- Imagen del pokemon y nombre -->
+    <div class="pokeImagen"></div>
+        <div class="fondoPokeImg">
+            <p id="pokeId" class="poketxt">#0 Pokeball</p>
+            <img id="pokeImg" src="./Img/pokeball.png" alt="imagen pokemon"> 
+            <p id="pokeTypes">Tipo:</p>
+        </div>
+        <div class="botones-pokedex">
+            <button  onclick="fetchpokemon()" class="botoncircular boton"></button>
+            <div class="botonlargocircular colorbotonlargorojo boton"></div>
+            <div class="botonlargocircular colorbotonlargoazul boton"></div>
+            <div class="cruzup boton"></div>
+            <div class="cruzlr boton">
+                <div class="circulocenter"></div>
+            </div>
+            <div class="cruzdown boton"></div>
+            <div class="cuadrotxt">
+                <p class="poketxt2">Busca tu pokemon:</p>
+                <input type="text" placeholder="Pikachu" id="pokeName" name="pokeName">
+                <p id="pokeData-peso" class="poketxt3">Peso: o </p>
+                <p id="pokeData-altura" class="poketxt3">Altura: o </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- <input type="text" placeholder="Nombre" id="pokeName" name="pokeName">
+    <img id="pokeImg" src="./Img/pokeball.png" alt="imgPokeball" width="200px">
+    <br>
+    <button onclick="fetchpokemon()">Cambiar pokemon</button>  -->
+</body>
+<footer>
+    <script src="./PokedexLaunchX.js"></script>
+</footer>
+</html>
