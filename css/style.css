@@ -269,7 +269,7 @@ body
   .cuadrotxt
   {
     width: 310px;
-    height: 120px;
+    height: 140px;
     background: #55ab62;
     margin-top: -40px;
     margin-left: 5px;
@@ -307,6 +307,8 @@ body
   
   #pokeAbilities
   {
+    display: flex;
+    justify-content: center;
     font-family: 'Press Start 2P', cursive;
     font-size: 5px;
     position: absolute;
